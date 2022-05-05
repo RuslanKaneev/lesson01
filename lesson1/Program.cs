@@ -10,7 +10,10 @@ namespace lesson1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, world!");
+            string impolz = Console.ReadLine();
+            Console.WriteLine($"Привет, {impolz}, сегодня {DateTime.Now}");
+
+
         }
     }
 }
